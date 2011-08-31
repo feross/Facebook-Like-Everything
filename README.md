@@ -4,12 +4,11 @@
 
 Do you want to like every post and comment that you see on Facebook all at once? Well, it’s your lucky day.
 
-Drag the link below to your Bookmarks Bar and click it to automatically like all the posts and comments on the page you’re on.
+Make a bookmark in your browser's bookmarks bar with the title "Like Everything" and set the URL to be the javascript code in bookmarklet.js. Once your new bookmark is created, head to Facebook, then click it! :)
 
-## <a href="javascript:var s=document.getElementById('happyScript');if(s){s.parentNode.removeChild(s);} s=document.createElement('script');s.setAttribute('src','http://www.feross.org/hacks/like_everything/like_everything.js');s.setAttribute('type','text/javascript');s.setAttribute('id','happyScript');document.body.appendChild(s);void(0);"> I like everything</a>
-(drag me to your bookmarks bar, go to Facebook, then click me!)
+## Why’d I do this?
 
-Why’d I do this? Some friends and I were playing around with Facebook’s new comment-on-enter feature and we got a large 70+ comment thread going, then people began to like every comment in the thread, so the idea for this JavaScript bookmarklet was born. I whipped it up in 15 minutes.
+Some friends and I were playing around with Facebook’s new comment-on-enter feature and we got a large 70+ comment thread going, then people began to like every comment in the thread. Yay, notification spam! Thus, the idea for this JavaScript bookmarklet was born. I whipped it up in 15 minutes.
 
 ![Like Bomb](http://www.feross.org/wp-content/uploads/2011/03/like_bomb.png)
 
