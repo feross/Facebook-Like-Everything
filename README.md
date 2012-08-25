@@ -1,6 +1,6 @@
 # Like Everything on Facebook with this JavaScript Bookmarklet
 
-### Read the [original blog post](http://www.feross.org/like-everything-on-facebook/).
+### Read the [original blog post](http://feross.org/like-everything-on-facebook/).
 
 Do you want to like every post and comment that you see on Facebook all at once? Well, it’s your lucky day.
 
@@ -10,7 +10,7 @@ Make a bookmark in your browser's bookmarks bar with the title "Like Everything"
 
 Some friends and I were playing around with Facebook’s new comment-on-enter feature and we got a large 70+ comment thread going, then people began to like every comment in the thread. Yay, notification spam! Thus, the idea for this JavaScript bookmarklet was born. I whipped it up in 15 minutes.
 
-![Like Bomb](http://www.feross.org/wp-content/uploads/2011/03/like_bomb.png)
+![Like Bomb](http://feross.org/images/like-bomb.png)
 
 ## Update:
 

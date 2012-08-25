@@ -2,7 +2,7 @@
     I Like Everything
     Description: Like everything on Facebook with this JavaScript Bookmarklet
     Author: Feross Aboukhadijeh
-    Read more: http://www.feross.org/like-everything-on-facebook/
+    Read more: http://feross.org/like-everything-on-facebook/
 */
 
 var sad = document.getElementsByTagName('button'),
