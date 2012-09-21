@@ -5,7 +5,7 @@
     Read more: http://feross.org/like-everything-on-facebook/
 */
 
-var sad = document.getElementsByTagName('button'),
+var sad = document.getElementsByTagName('*'),
     happy = [],
     halt = false;
     
