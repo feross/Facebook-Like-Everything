@@ -12,7 +12,7 @@ var sad = document.getElementsByTagName('*'),
 // Select only the Like buttons.
 // Convert the sad NodeList to a happy Array.
 for (var i = 0; i < sad.length; i++) {
-    if (sad[i] && (sad[i].title == 'Like this comment' || sad[i].title == 'Like this item')) {
+    if (sad[i] && (sad[i].title == 'Like this' || sad[i].title == 'Like this comment')) {
         happy.push(sad[i]);
     }
 }
@@ -35,7 +35,7 @@ function happyFn(happy) {
     // Facebook enforces this requirement.
     window.setTimeout(function() {
         happyFn(happy.splice(1));
-    }, 800);
+    }, 5000);
 }
 
 function haltFn() {
