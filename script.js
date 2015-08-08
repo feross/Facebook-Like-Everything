@@ -4,17 +4,19 @@
     Author: Feross Aboukhadijeh
     Read more: http://feross.org/like-everything-on-facebook/
 */
-
-var sad = document.getElementsByTagName('*'),
+    var sad = document.getElementsByClassName("UFILikeLink"),
     happy = [],
     halt = false;
-    
+
 // Select only the Like buttons.
 // Convert the sad NodeList to a happy Array.
 for (var i = 0; i < sad.length; i++) {
-    if (sad[i] && (sad[i].title == 'Like this' || sad[i].title == 'Like this comment')) {
+
+// Filter liked
+    if (!hasClass(sad[i], "UFILinkBright")) {
         happy.push(sad[i]);
     }
+
 }
 
 var happyDiv = document.createElement('div');
@@ -30,17 +32,21 @@ function happyFn(happy) {
     happy[0].style.color='#FF0000';
     var countSpan = document.querySelector('#happy span');
     countSpan.innerHTML = parseInt(countSpan.innerHTML) + 1;
-    
+
     // Wait for each Like to be processed before trying the next.
     // Facebook enforces this requirement.
     window.setTimeout(function() {
         happyFn(happy.splice(1));
-    }, 5000);
+    }, 3000);
 }
 
 function haltFn() {
     halt = true;
     return false; // prevent default event
+}
+
+function hasClass( target, className ) {
+    return new RegExp('(\\s|^)' + className + '(\\s|$)').test(target.className);
 }
 
 happyFn(happy);
