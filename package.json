@@ -1,0 +1,25 @@
+{
+  "name": "facebook-like-everything",
+  "version": "1.0.0",
+  "description": "### Read the [original blog post](http://feross.org/like-everything-on-facebook/).",
+  "main": "script.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feross/Facebook-Like-Everything.git"
+  },
+  "author": "Feross Aboukhadijeh <feross@feross.org> (http://feross.org/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/feross/Facebook-Like-Everything/issues"
+  },
+  "homepage": "https://github.com/feross/Facebook-Like-Everything#readme",
+  "devDependencies": {
+    "standard": "^5.0.2"
+  },
+  "standard": {
+    "ignore": "bookmarklet.js"
+  }
+}
