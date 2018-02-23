@@ -1,5 +1,7 @@
 # Like Everything on Facebook with this JavaScript Bookmarklet
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/feross/Facebook-Like-Everything.svg)](https://greenkeeper.io/)
+
 ### Read the [original blog post](http://feross.org/like-everything-on-facebook/).
 
 Do you want to like every post and comment that you see on Facebook all at once? Well, it’s your lucky day.
